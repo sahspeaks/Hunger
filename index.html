@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunger.</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootsatrap & Jscript -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/066d83e782.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="title">
+        <div class="conatiner-fluid">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <img id="logo" src="images/Hunger-Logo.png" alt="logo" height="80px" width="auto">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#title">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#download">Download</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">Contact Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- Title -->
+            <div class="start-row row">
+                <div class="col">
+                    <h1 class="heading-text">Feelin' Hungry???</h1>
+
+                    <p class="title-text">Delve into the world of German cuisine.</p>
+                    <form class="search-box d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search For Your City"
+                            aria-label="Search">
+                       <a class="btn btn-outline-success" href="https://www.zomato.com/tirupati" target="_ " role="button">SEARCH</a>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--Dishes -->
+    <section id="Dishes">
+        <div class="food-row row">
+            <h3> Just take a look at these top dishes.</h3>
+            <h3>Discover an array of
+                rich, hearty, and delicious dishes.</h3>
+            <h3> We deliver food from your neighborhood local joints, your favorite cafes, luxurious & elite restaurants in your area. </h3>    
+            <div class="food-item col-lg-4 col-md-6">
+                <img class="img-responsive" src="images/food4.jpg" alt="" width="344.667px" height="313.15px">
+                <h2 class="poduct_heading">Schnitzel</h2>
+
+                <p>Our list of top German foods wouldn't be complete with mentioning Schnitzel. Coated in breadcrumbs
+                    and often served with a slice of lemon, this thin, boneless cutlet of meat is an iconic part of
+                    German cuisine.</p>
+
+            </div>
+            <div class="food-item col-lg-4 col-md-6">
+                <img class="img-responsive" src="images/food5.jpg" alt="" width="344.667px" height="313.15px">
+                <h2 class="poduct_heading">Kirschtorte</h2>
+
+                <p>You'll find lots of cakes and tarts to tempt you in Germany, but few people can resist a huge slice
+                    of Germany's most famous cake: the delicious Schwarzwälder Kirschtorte (which literally means 'Black
+                    Forest cherry torte'). </p>
+            </div>
+            <div class="food-item col-lg-4 col-md-6">
+                <img class="img-responsive" src="images/food7.jpg" alt="" width="344.667px" height="313.15px">
+                <h2 class="poduct_heading">Käsespätzle</h2>
+
+                <p>Germany's answer to pasta, Spätzle is especially popular in the south of the country. These soft egg
+                    noodles are made from wheat flour and egg and are often topped with cheese (Käsespätzle) and roasted
+                    onions. </p>
+            </div>
+            <div class="food-item col-lg-4 col-md-6">
+                <img class="img-responsive" src="images/food8.jpg" alt="" width="344.667px" height="313.15px">
+                <h2 class="poduct_heading">Stollen</h2>
+
+                <p>Stollen is one of German Christmas classics. This rich fruit bread is prepared with a buttery and
+                    sweet yeast dough that is usually spiced, lemon-flavored, and enriched with various dried fruits and
+                    marzipan.</p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- food-carousel -->
+
+    <section id="dishes-list">
+        <h3>Inspiration for your first order
+        </h3>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="carousel-text"></h2>
+                    <img class="test-img" src="images/food6.jpg" alt="Food1" height="400px" width="540px">
+                    <em></em>
+                </div>
+                <div class="carousel-item ">
+                    <h2 class="carousel-text"></h2>
+                    <img class="test-img" src="images/food9.jpg" alt="Food3" height="400px" width="540px">
+                    <em></em>
+                </div>
+                <div class="carousel-item ">
+                    <h2 class="carousel-text"></h2>
+                    <img class="test-img" src="images/food10.jpg" alt="Food3" height="400px" width="540px">
+                    <em></em>
+                </div>
+                <div class="carousel-item ">
+                    <h2 class="carousel-text"></h2>
+                    <img class="test-img" src="images/food11.jpg" alt="Food4" height="400px" width="540px">
+                    <em></em>
+                </div>
+                <div class="carousel-item ">
+                    <h2 class="carousel-text"></h2>
+                    <img class="test-img" src="images/food12.jpg" alt="Food5" height="400px" width="540px">
+                    <em></em>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- Companies -->
+    <section id="press">
+        <h3>Top Ratings By Websites</h3>
+        <img class="press-img" src="images/custom-rb-logo.png" alt="tc-logo">
+        <img class="press-img" src="images/smarther.png" alt="tnw-logo">
+        <img class="press-img" src="images/bizinsider.png" alt="mashable-logo">
+
+    </section>
+
+
+    <!-- Download-->
+
+    <section id="download">
+        <div class="dwn-row row">
+            <div class="dwn-col col-lg-6 col-md-6">
+                <img id="logo" src="images/logo2.png" alt="logo" height="80px" width="auto">
+
+                <h1 class="heading-text">Get the App!!!</h1>
+                <a href="https://apps.apple.com/in/app/zomato-food-restaurants/id434613896" target="_ "><button type="button" class="btn btn-dark btn-lg dwn-btn"><i class="fa-brands fa-apple"></i>
+                    Download</button></a>
+                <a href="https://play.google.com/store/apps/details?id=com.application.zomato&gl=US" target="_ "><button type="button" class="btn btn-outline-dark btn-lg dwn-btn"><i
+                        class="fa-brands fa-google-play"></i>
+                    Download</button></a>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <img class="App" src="images/download-img.avif" alt="iphone-mockup" height="500px" width="400px">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <hr>
+        <h6 class="foot-text">SOCIAL LINKS</h6>
+        <a href="https://www.facebook.com/akroy2456/" target="_ "><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/sah_speaks/" target="_ "><i class="foot-icons fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/Sah_speaks" target="_ "><i class="foot-icons fa-brands fa-twitter"></i></a>
+        <a href="mailto:akroy2456@gmail.com" target="_ "><i class="foot-icons fa-solid fa-envelope"></i></a>
+        <p class="cpy-right">© Copyright Hunger.</p>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+
+.navbar-brand{
+    font-size:1.2rem ;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+#title{
+    background-image:url("images/food1.jpg");
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+    text-align: center;
+}
+.start-row{
+    text-align: center;
+    color: white;
+    padding: 3% 15%;
+}
+.heading-text{
+    font-family: 'Open Sans-Bold', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+.title-text{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.nav-item{
+    padding: 0 6px;
+}
+.nav-link{
+    font-size:1.2rem ;
+    font-family: 'Montserrat';
+    font-weight: 100;
+}
+.container-fluid {
+    padding: 3% 10%;
+}
+.search-box{
+    padding: 3% 10%;
+}
+#Dishes{
+    padding: 10% 7%;
+    /* background-color: #FEFBE7; */
+    background-color: rgb(255, 251, 247);
+}
+p{
+    color: gray;
+    
+}
+h1,h2,h3{
+    line-height:1.5 ;
+}
+.food-item{
+    margin:3% 0% ;
+    padding: 3% 0%;
+    border-radius: 1.5rem;
+    border: 0.1rem solid rgb(232, 232, 232);
+}
+#dishes-list{
+    padding: 7% 15%;
+    background-color: #DAE5D0;
+}
+
+
+
+#press{
+    background-color: #DAE5D0;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#download{
+    background-color: rgb(255, 251, 247);
+    padding: 7% 15%;  
+}
+.dwn-col{
+    margin-top: 20%;
+}
+.dwn-btn{
+    margin: 5% 3% 5% 0;  
+}
+#footer{
+    background: rgb(248, 248, 248);
+    padding: 7% 15%;
+}
+.foot-icons{
+    margin: 20px 10px;
+}
+.foot-text{
+    line-height: 2.5;
+    font-size: 1.3rem;
+    
+    
+}
+@media (min-width: 481px)
+{
+.food-item:hover {
+    border-color: rgb(232, 232, 232);
+    box-shadow: rgb(28 28 28 / 12%) 0px 0.4rem 1.8rem;
+    box-sizing: border-box;
+}
+}
